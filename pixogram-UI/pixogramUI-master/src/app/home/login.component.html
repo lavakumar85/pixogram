@@ -1,0 +1,16 @@
+<link href="https://unpkg.com/@angular/material/prebuilt-themes/indigo-pink.css" rel="stylesheet">
+<div class="container">
+  <h1><b>Login</b></h1>
+  <p>
+    <label for="username"><b>Username</b></label>
+    <input [(ngModel)]="username" type="text" class="text" placeholder="Enter Username" required>
+  </p>
+  <p>
+    <label for="password"><b>Password</b></label>
+    <input [(ngModel)]="password" type="password" class="text" placeholder="Enter Password" required>
+  </p>
+  <p>
+    <button type="submit" class="btn" (click)="login()">Login</button>
+  </p>
+  <button type="submit" class="btn" (click)="forgotPassword()">Forgot Password</button>
+</div>

@@ -1,0 +1,4 @@
+fileDownloadUri: "http://localhost:8924/downloadFile/Badges_v8-07+Practitioner.png"
+fileName: "Badges_v8-07+Practitioner.png"
+fileType: "image/png"
+size: 50483
